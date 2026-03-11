@@ -1,6 +1,10 @@
 # Awesome VLA Inference Optimization
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/awesome-VLA-inference/pulls)
 
+<p align="center">
+  <img src="./assets/vla01.gif" width="600px">
+</p>
+
 ## 🔥🔥🔥 Vision-Language-Action Models: Inference & Optimization
 Vision-Language-Action (VLA) models have emerged as the foundational brains for embodied agents and robotics. However, deploying these massive models in real-time robotic control systems introduces severe latency and computational bottlenecks. 
 
