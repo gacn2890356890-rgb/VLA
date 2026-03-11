@@ -16,6 +16,7 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
   journal={arXiv preprint arXiv:XXXX.XXXXX},
   year={2024}
 }
+```
 
 📢 News
 🚀 What's New in This Update :
