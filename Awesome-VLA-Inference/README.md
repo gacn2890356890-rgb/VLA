@@ -14,11 +14,13 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
 
 *If you find this repository helpful, please consider citing our related survey (Replace with your own BibTeX later):*
 ```bibtex
-@article{yourname2024vla,
-  title={A Comprehensive Survey on Vision-Language-Action Model Inference Optimization},
-  author={Your Name and Co-authors},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2024}
+@misc{awesome-vla-inference,
+  author = {Jia Luo}, 
+  title = {Awesome-VLA-Inference: A Comprehensive Survey on Vision-Language-Action Model Inference Optimization},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/gacn2890356890-rgb/VLA/tree/main/Awesome-VLA-Inference}}
 }
 ```
 
