@@ -27,11 +27,6 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
 📢 News
 🚀 What's New in This Update :
 
-[2024.11.01]: 🔥 We release our initial Awesome-VLA-Inference paper list!
-
-[2024.10.15]: 🔥 Added two papers on VLA Speculative Decoding.
-
-[2024.10.01]: 🔥 Added three papers on Action-Space Quantization.
 
 🌈 Table of Contents
 Survey Papers
