@@ -28,7 +28,7 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
 🚀 What's New in This Update :
 
 
-🌈 Table of Contents
+# 🌈 Table of Contents
 
 - [Awesome Papers](#awesome-papers)
 
