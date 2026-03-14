@@ -52,3 +52,5 @@ Mixture of Experts (MoE)
 System & Deployment Frameworks
 
 Embodied-Specific Optimization
+
+https://arxiv.org/abs/2506.10100
