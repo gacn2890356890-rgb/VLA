@@ -29,29 +29,8 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
 
 
 🌈 Table of Contents
-Survey Papers
 
-Model Compression
-
-Quantization
-
-Pruning & Sparsity
-
-Decoding Strategies
-
-Speculative Decoding
-
-Early Exiting
-
-Architecture Optimization
-
-Efficient Attention
-
-Mixture of Experts (MoE)
-
-System & Deployment Frameworks
-
-Embodied-Specific Optimization
+- [Awesome Papers](#awesome-papers)
 
 # Awesome Papers
 
