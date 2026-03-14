@@ -57,5 +57,5 @@ Embodied-Specific Optimization
 
 | Title | Introduction | Date | Code |
 |:---|:---|:---|:---|
-| [EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models](https://arxiv.org/abs/2506.10100) | | 2025-01-11 |  |
+| [EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models](https://arxiv.org/abs/2506.10100) | A training-free framework systematically reducing VLA redundancies across language, vision, and action modules for efficient real-time inference.  | 2025-01-11 |  |
 |
