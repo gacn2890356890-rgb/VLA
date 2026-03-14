@@ -53,4 +53,9 @@ System & Deployment Frameworks
 
 Embodied-Specific Optimization
 
-https://arxiv.org/abs/2506.10100
+# Awesome Papers
+
+| Title | Introduction | Date | Code |
+|:---|:---|:---|:---|
+| [EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models](https://arxiv.org/abs/2506.10100) | | 2025-01-11 |  |
+|
