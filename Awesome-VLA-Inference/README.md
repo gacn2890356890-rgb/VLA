@@ -38,7 +38,9 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
 |:---|:---|:---|:---|
 | [EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models](https://arxiv.org/abs/2506.10100) | A training-free framework systematically reducing VLA redundancies across language, vision, and action modules for efficient real-time inference.  | 2025-01-11 |  |
 | [Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance](https://arxiv.org/html/2507.22424v2) | Introducing the first speculative decoding framework for VLAs with a relaxed acceptance mechanism based on action token distances to achieve 1.42x speedup. | 2025-09-20 | [GitHub](https://github.com/PineTreeWss/SpecVLA)|
+| [SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration](https://arxiv.org/abs/2506.12723) | Accelerates VLA inference by jointly scheduling between lightweight generators and target VLMs while dynamically pruning visual tokens based on task uncertainty. | 2025-10-03 | |
 | [KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models](https://arxiv.org/html/2603.01581v1) | Accelerates VLA inference by rectifying draft actions with kinematic constraints to improve speculative decoding acceptance rates and ensure physical consistency. | 2026-03-02 | |
+
 
 
 
