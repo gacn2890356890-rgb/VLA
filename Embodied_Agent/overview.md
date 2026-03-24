@@ -33,14 +33,38 @@
 
 - [Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents](https://arxiv.org/abs/2601.01885)
 
+构建一个能自主、动态管理短期与长期记忆的智能体架构，摆脱对人工预设记忆规则的依赖
+
+- Unified Memory Management（通过学习来决定信息的生命周期：先前方案通常将记忆简单划分为STM和LTM，利用固定的规则如简单的滑动窗口或向量检索）进行管理）
+- Dynamic Retrieval
+- Learning to Manage
+
 ## Agent Planning
 
 - [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/abs/2603.10600)
+
+构建一种Self-Improving机制：如何让智能体在不进行昂贵的参数微调，仅通过管理自己的执行轨迹，就能像人类专家一样“吃一堑长一智”
+
+- Structured Experience Injection：三类经验（Strategy：从成功轨迹中学习高效路径，Recovery：从失败轨迹中学习如何从特定错误中恢复，Optimization：识别哪些“成功的步骤”其实是可以更简练的）
+- Fine-grained Decision Attribution：强调出处（Provenance）：记录这条建议是基于哪次具体的执行案例生成的
+- 动态检索与上下文对齐
 
 - [ICPRL: Acquiring Physical Intuition from Interactive Control](https://arxiv.org/abs/2603.13295)
 
 - [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753)
 
+利用 LLM 内置的代码生成能力，绕过复杂的数据采集和端到端训练
+
+- 支持复杂逻辑流：支持循环和判断
+- 代码作为通用中间表示：比自然语言更加清晰，可溯源
+- Few-shot Learning：通过在 Prompt 中提供 3-5 个“任务-代码”，LLM可以学会API
+
 - [Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs](https://arxiv.org/abs/2602.21198)
+
+构建一种通用的、无需重新训练即可提升具身智能体鲁棒性的框架，动态物理环境中的自我修正能力
+
+- Trajectory-Aware Reflective Prompting：多模态观测序列，与逻辑推理链进行对齐，生成具有物理意义的归因结论
+- Active Failure Trigger：预防性反思
+- Experience Retrieval-Augmentation：在反射记忆中进行语义检索
 
 
