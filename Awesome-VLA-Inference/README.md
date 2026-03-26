@@ -30,6 +30,7 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
 
 # 🌈 Table of Contents
 
+- [Introduction to the VLA Paradigm](#introduction-to-the-vla-paradigm)
 - [Awesome Papers](#awesome-papers)
 
 # A Deep Dive into Vision-Language-Action (VLA) Models: Architecture, Edge Deployment, and Future Trends
