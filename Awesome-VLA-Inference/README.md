@@ -75,7 +75,7 @@ A significant hurdle in early VLA development was converting LLM outputs into a 
 
 ## Deep Dive into the Hierarchical Dual-System Architecture
 
-Drawing inspiration from Cognitive Psychology's Dual Process Theory, modern embodied control is increasingly decoupled into two distinct cognitive layers:
+Drawing inspiration from Cognitive Psychology's Dual Process Theory, modern embodied control is increasingly decoupled into two distinct cognitive layers [^1]:
 
 - **System 1 (Intuitive Cerebellum / Fast Thinking):** Composed of lightweight Convolutional Neural Networks, Diffusion Policies, or MLPs. It handles high-frequency, reactive tasks.
 - **System 2 (Deliberative Brain / Slow Thinking):** Powered by large-scale Vision-Language Models (e.g., LLaVA, Qwen-VL). It processes abstract instructions, breaks down logic, and performs spatial topology planning. Operating at low frequencies (0.5Hz–5Hz), it intervenes only during significant state changes.
@@ -143,11 +143,14 @@ The path to Artificial General Intelligence in robotics requires a profound comp
 | Title | Introduction | Date | Code |
 |:---|:---|:---|:---|
 | [RT-2: New model translates vision and language into action](https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/) | | 2023-07-28 | |
+| [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2502.19417) | | 2025-02-26 | |
+| [Fast-in-Slow: A Dual-System Foundation Model Unifying Fast Manipulation within Slow Reasoning](https://arxiv.org/abs/2506.01953) | | 2025-06-02 | |
 | [EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models](https://arxiv.org/abs/2506.10100) | A training-free framework systematically reducing VLA redundancies across language, vision, and action modules for efficient real-time inference.  | 2025-06-11 |  |
 | [SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration](https://arxiv.org/abs/2506.12723) | Accelerates VLA inference by jointly scheduling between lightweight generators and target VLMs while dynamically pruning visual tokens based on task uncertainty. | 2025-06-15 | |
 | [Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance](https://arxiv.org/abs/2507.22424v2) | Introducing the first speculative decoding framework for VLAs with a relaxed acceptance mechanism based on action token distances to achieve 1.42x speedup. | 2025-07-30 | [GitHub](https://github.com/PineTreeWss/SpecVLA)|
-| [VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference](https://arxiv.org/abs/2511.16449) |  | 2026-11-20 | [GitHub](https://github.com/MINT-SJTU/VLA-Pruner) |
-| [KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models](https://arxiv.org/html/2603.01581v1) | Accelerates VLA inference by rectifying draft actions with kinematic constraints to improve speculative decoding acceptance rates and ensure physical consistency. | 2026-03-02 | |
+| [RICL: Adding In-Context Adaptability to Pre-Trained Vision-Language-Action Models](https://arxiv.org/abs/2508.02062) | | 2025-08-04 | |
+| [VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference](https://arxiv.org/abs/2511.16449) |  | 2025-11-20 | [GitHub](https://github.com/MINT-SJTU/VLA-Pruner) |
+| [KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models](https://arxiv.org/abs/2603.01581v1) | Accelerates VLA inference by rectifying draft actions with kinematic constraints to improve speculative decoding acceptance rates and ensure physical consistency. | 2026-03-02 | |
 | [HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness](https://arxiv.org/abs/2603.17573v1) | | 2026-03-18 | |
 
 ### Survey and Review Papers
@@ -155,5 +158,11 @@ The path to Artificial General Intelligence in robotics requires a profound comp
 | Title | Introduction | Date | Code |
 |:---|:---|:---|:---|
 | [Vision-Language-Action (VLA) Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769v2) | | 2025-05-07 | |
+| [Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey](https://arxiv.org/abs/2508.13073v1) | | 2025-08-18 | |
 | [Pure Vision Language Action (VLA) Models: A Comprehensive Survey](https://arxiv.org/abs/2509.19012v1) | | 2025-09-23 | |
+| [Efficient Vision-Language-Action Models for Embodied Manipulation: A Systematic Survey](https://arxiv.org/abs/2510.17111v3) | | 2025-10-20 | |
 
+---
+### References
+
+[^1]: Conway-Smith, B., & West, R. L. "System-1 and System-2 realized within the Common Model of Cognition." *AAAI 2022 Fall Symposium*. [arXiv:2305.09091](https://arxiv.org/abs/2305.09091).
