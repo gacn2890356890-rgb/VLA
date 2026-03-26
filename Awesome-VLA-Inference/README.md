@@ -138,6 +138,8 @@ The path to Artificial General Intelligence in robotics requires a profound comp
 
 ## Awesome Papers
 
+### Research Papers
+
 | Title | Introduction | Date | Code |
 |:---|:---|:---|:---|
 | [RT-2: New model translates vision and language into action](https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/) | | 2023-07-28 | |
@@ -148,7 +150,10 @@ The path to Artificial General Intelligence in robotics requires a profound comp
 | [KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models](https://arxiv.org/html/2603.01581v1) | Accelerates VLA inference by rectifying draft actions with kinematic constraints to improve speculative decoding acceptance rates and ensure physical consistency. | 2026-03-02 | |
 | [HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness](https://arxiv.org/abs/2603.17573v1) | | 2026-03-18 | |
 
+### Survey and Review Papers
 
-
-
+| Title | Introduction | Date | Code |
+|:---|:---|:---|:---|
+| [Vision-Language-Action (VLA) Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769v2) | | 2025-05-07 | |
+| [Pure Vision Language Action (VLA) Models: A Comprehensive Survey](https://arxiv.org/abs/2509.19012v1) | | 2025-09-23 | |
 
