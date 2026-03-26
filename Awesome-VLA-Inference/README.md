@@ -1,4 +1,4 @@
-# Awesome VLA Inference Optimization
+# A Deep Dive into Vision-Language-Action (VLA) Models: Architecture, Edge Deployment, and Future Trends
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/awesome-VLA-inference/pulls)
 
 <p align="center">
@@ -31,9 +31,17 @@ This repository provides a comprehensive and up-to-date collection of papers, fr
 # 🌈 Table of Contents
 
 - [Introduction to the VLA Paradigm](#introduction-to-the-vla-paradigm)
+    - [The Challenge of Action Tokenization](#the-challenge-of-action-tokenization)
+    - [Evolution of Classic VLA Models](#evolution-of-classic-vla-models)
+- [Deep Dive into the Hierarchical Dual-System Architecture](#deep-dive-into-the-hierarchical-dual-system-architecture)
+    - [Dual-System Architecture Core Elements](#dual-system-architecture-core-elements)
+- [Edge Deployment Bottlenecks and Optimization Strategies](#edge-deployment-bottlenecks-and-optimization-strategies)
+    - [Mainstream Acceleration and Compression Techniques](#mainstream-acceleration-and-compression-techniques)
+    - [Borrowing from LLM Acceleration](#borrowing-from-llm-acceleration)
+- [Industry Trends and Strategic Conclusions](#industry-trends-and-strategic-conclusions)
+    - [Final Outlook](#final-outlook)
 - [Awesome Papers](#awesome-papers)
 
-# A Deep Dive into Vision-Language-Action (VLA) Models: Architecture, Edge Deployment, and Future Trends
 
 ## Introduction to the VLA Paradigm
 
@@ -128,7 +136,7 @@ Two major paradigm shifts are defining the future of Embodied AI:
 
 The path to Artificial General Intelligence in robotics requires a profound compromise with physical reality. The ultimate digital soul for physical hardware—from dexterous grippers to general-purpose humanoids—will be a hierarchical VLA that marries the deep semantic reasoning of modern LLMs with the rigorous spatial geometry and control theory of classical robotics.
 
-# Awesome Papers
+## Awesome Papers
 
 | Title | Introduction | Date | Code |
 |:---|:---|:---|:---|
