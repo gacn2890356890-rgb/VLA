@@ -1,4 +1,4 @@
-# A Deep Dive into Vision-Language-Action (VLA) Models: Architecture, Edge Deployment, and Future Trends
+# A Deep Dive into VLA Models: Architecture, Edge Deployment, and Optimization
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/awesome-VLA-inference/pulls)
 
 <p align="center">
