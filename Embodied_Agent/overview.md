@@ -70,9 +70,9 @@
 
 **Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs**
 
-- action generation LLM $\pai_\theta$: actions given observations
+- action generation LLM $\pie_\theta$: actions given observations
 - internal reflection LLM $V_{\fai_i}$: preaction evaluations
-- external reflection LLM
+- external reflection LLM $V_{\fai_e}$: post-execution assessments
 
 - 2 modes of reflection:
   - reflection-in-action
