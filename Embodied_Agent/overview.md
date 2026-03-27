@@ -68,6 +68,19 @@
 - Active Failure Trigger：预防性反思
 - Experience Retrieval-Augmentation：在反射记忆中进行语义检索
 
+**Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs**
+
+- action generation LLM $\pai_\theta$: actions given observations
+- internal reflection LLM $V_{\fai_i}$: preaction evaluations
+- external reflection LLM
+
+- 2 modes of reflection:
+  - reflection-in-action
+  - reflection-on-action
+- retrospective reflection
+
+## Awesome Papers
+
 ### Research Papers
 
 | Title | Introduction | Date | Code |
