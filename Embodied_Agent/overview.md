@@ -1,4 +1,5 @@
 # Overview
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/awesome-VLA-inference/pulls)
 
 ## Survey
 
@@ -67,4 +68,9 @@
 - Active Failure Trigger：预防性反思
 - Experience Retrieval-Augmentation：在反射记忆中进行语义检索
 
+### Research Papers
+
+| Title | Introduction | Date | Code |
+|:---|:---|:---|:---|
+| [RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics](https://arxiv.org/abs/2512.13660) |  | 2025-12-15 | [GitHub](https://github.com/Zhoues/RoboTracer) |
 
