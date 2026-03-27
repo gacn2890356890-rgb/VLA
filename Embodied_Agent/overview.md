@@ -72,5 +72,7 @@
 
 | Title | Introduction | Date | Code |
 |:---|:---|:---|:---|
+| [LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator](https://arxiv.org/abs/2512.10605) |  | 2025-12-11 | [GitHub](https://github.com/LegendLeoChen/LEO-RobotAgent?tab=readme-ov-file) |
 | [RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics](https://arxiv.org/abs/2512.13660) |  | 2025-12-15 | [GitHub](https://github.com/Zhoues/RoboTracer) |
+
 
