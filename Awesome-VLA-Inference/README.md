@@ -152,6 +152,7 @@ The path to Artificial General Intelligence in robotics requires a profound comp
 | [VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference](https://arxiv.org/abs/2511.16449) |  | 2025-11-20 | [GitHub](https://github.com/MINT-SJTU/VLA-Pruner) |
 | [KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models](https://arxiv.org/abs/2603.01581v1) | Accelerates VLA inference by rectifying draft actions with kinematic constraints to improve speculative decoding acceptance rates and ensure physical consistency. | 2026-03-02 | |
 | [HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness](https://arxiv.org/abs/2603.17573v1) | | 2026-03-18 | |
+| [FASTER: Rethinking Real-Time Flow VLAs](https://arxiv.org/abs/2603.19199) |  | 2026-03-19 |  |
 
 ### Survey and Review Papers
 
