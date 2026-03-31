@@ -159,6 +159,7 @@ Constructing *Self-Improving* mechanisms enables agents to learn from mistakes l
 | **[Large Language Models for Robotics: A Survey](https://arxiv.org/abs/2311.07226)** | Focuses strictly on translating LLM abstract reasoning to physical robotic execution. | 2023-11  |
 | **[Vision-Language-Action (VLA) Models: Concepts, Progress, Applications](https://arxiv.org/abs/2505.04769v2)** | Deep dive into the evolution from pure VLMs to action-grounded VLAs. | 2025-05  |
 | [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499) |  | 2024-11 |
+| [Embodied AI: From LLMs to World Models](https://arxiv.org/abs/2509.20021) | | 2025-09 |
 
 - What is a World model?
 - understanding the world
