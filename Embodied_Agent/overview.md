@@ -96,14 +96,30 @@ Deploying these massive models on physical hardware often involves extreme const
 
 ## 5. 🌍 World Models & Generative Simulation
 
-World models represent a paradigm shift from *reactive* agents to *predictive* agents. By learning the underlying transition dynamics of an environment, an agent can "hallucinate" future states and optimize its actions purely in latent space before executing them in the physical world.
+World models represent a paradigm shift from *reactive* agents to *predictive* agents. But **what exactly is a World Model?** At its core, it embodies a dual objective: **understanding the world** (extracting underlying mechanisms and rules) and **predicting the future** (simulating subsequent states and visual evolutions).
 
-- **State Transition Dynamics:** The core function of a world model is predicting the next state $s_{t+1}$ and expected reward $r_t$ given the current state $s_t$ and action $a_t$:
+This concept is deeply rooted in the psychological theory of **"mental models,"** which posits that humans perceive the external world by abstracting it into simplified elements and relationships. As philosopher Ludwig Wittgenstein noted, *"The limits of my language mean the limits of my world"*—a principle that perfectly encapsulates why Large Language Models (LLMs) now serve as the foundational semantic engine for these cognitive architectures.
+
+### ⚙️ Core Architectures & Training Paradigms
+
+By learning the underlying transition dynamics of an environment, an agent can "hallucinate" future states and optimize its actions purely in latent space before executing them in the physical world:
+
+- **State Transition Dynamics:** The core mathematical function of a world model is predicting the next state $s_{t+1}$ and expected reward $r_t$ given the current state $s_t$ and action $a_t$:
 
   $$s_{t+1}, r_t \sim P(s_{t+1}, r_t | s_t, a_t)$$
 
-- **Self-Correction & Safety:** Agents can simulate multiple potential trajectories, identifying physical collisions or task failures in advance. This avoids costly, and potentially dangerous, real-world errors.
+- **Model-Based Reinforcement Learning (MBRL):** Employs recurrent neural-network-based implicit models to learn robust latent representations. Frameworks like the **Recurrent World Model (RWM)** and the **Dreamer** series allow agents to master complex tasks entirely within their own "imagination."
 
+- **Self-Supervised Learning:** Architectures like Yann LeCun's **Joint Embedding Predictive Architecture (JEPA)** (including **V-JEPA** and **V-JEPA2**) predict missing information in an abstract representation space rather than reconstructing exact pixels, filtering out visual noise to focus strictly on physical and semantic shifts.
+
+### 🚀 Capabilities & Cross-Domain Applications
+
+A robust world model requires a precise understanding of external dynamics and the ability to generate interactive, counterfactual simulations. This unlocks transformative capabilities across several industrial domains:
+
+- **Autonomous Driving:** Empowers systems to not only perceive complex road conditions in real-time but to accurately predict their evolution, generating rare, interactive edge-case scenarios for rigorous safety evaluation.
+- **Robotics & Embodied AI:** Enhances physical interactions by providing agents with predictive spatial awareness, enabling dynamic obstacle navigation, robust object detection, and long-horizon task planning in shifting environments.
+- **Simulation of Virtual Social Systems:** Extends beyond rigid-body physics to capture and predict abstract behavioral dynamics. These models simulate highly complex social interactions, economic shifts, and human decision-making processes at a macro scale.
+- **Self-Correction & Safety:** By simulating multiple potential trajectories across any of these domains, agents can identify physical collisions or logical task failures in advance. This internal trial-and-error avoids costly, and potentially dangerous, real-world mistakes.
 ------
 
 ## 6. 🚀 Embodied LLMs & Agentic Workflows
@@ -142,6 +158,48 @@ Constructing *Self-Improving* mechanisms enables agents to learn from mistakes l
 | **[The Rise and Potential of Large Language Model Based Agents](https://arxiv.org/abs/2309.07864)** | Comprehensive overview of LLM agent architectures and early reasoning frameworks. | 2023-09  |
 | **[Large Language Models for Robotics: A Survey](https://arxiv.org/abs/2311.07226)** | Focuses strictly on translating LLM abstract reasoning to physical robotic execution. | 2023-11  |
 | **[Vision-Language-Action (VLA) Models: Concepts, Progress, Applications](https://arxiv.org/abs/2505.04769v2)** | Deep dive into the evolution from pure VLMs to action-grounded VLAs. | 2025-05  |
+| [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499) |  | 2024-11 |
+
+- What is a World model?
+- understanding the world
+- predicting the future
+
+capabilities
+
+autonomous driving
+- perceive road conditions in real-time
+- accurately predict their evolution
+robotics
+
+requiring a precise understanding of external dynamics、ability to generate interactive
+- navigation
+- object detection
+- task planning
+
+simulation of virtual social systems
+-  capture and predict more abstract behavioral dynamics（social interactions and human decision-making processes）
+
+Model-based Reinforcement Learning
+
+recurrent neural-network-based implicit model for learning latent representations
+
+psychological theory of “mental models”:  posits that humans perceive the external world by abstracting it
+into simplified elements and relationships—an underlying philosophical principle reflected in both
+frames and world models
+
+recurrent world model (RWM)
+
+Dreamer
+
+Self-supervised Learning
+
+Joint Embedding Predictive Architecture
+(JEPA)
+V-JEPA [14] and V-JEPA2 [8]
+
+Large Language Models
+
+The limits of my language mean the limits of my world
 
 ### 🧠 VLA Architecture & Inference Optimization
 
