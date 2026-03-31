@@ -12,7 +12,7 @@
 - [2. Vision-Language Models (VLMs) as the Semantic Brain](https://www.google.com/search?q=%232-vision-language-models-vlms-as-the-semantic-brain)
 - [3. Video Understanding in Embodied Contexts](https://www.google.com/search?q=%233-video-understanding-in-embodied-contexts)
 - [4. Deep Dive into Vision-Language-Action (VLA) Models](https://www.google.com/search?q=%234-deep-dive-into-vision-language-action-vla-models)
-- [5. World Models & Generative Simulation](https://www.google.com/search?q=%235-world-models--generative-simulation)
+- [5. World Models & Generative Simulation: The MLLM-WM Synergy](https://www.google.com/search?q=%235-world-models--generative-simulation)
 - [6. Embodied LLMs & Agentic Workflows](https://www.google.com/search?q=%236-embodied-llms--agentic-workflows)
 - [7. 📚 Awesome Papers Directory](https://www.google.com/search?q=%237--awesome-papers-directory)
 - [🤝 Contributing & Citation](https://www.google.com/search?q=%23-contributing--citation)
